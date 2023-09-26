@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ubc/profiles-search-block",
+  "version": "0.1.1",
+  "title": "UBC Profiles Search Block",
+  "category": "widgets",
+  "icon": "search",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ubc-profiles-search-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "selectedTaxonomySlug": {
+      "type": "string",
+      "default": ""
+    },
+    "selectedTerms": {
+      "type": "array",
+      "default": []
+    }
+  }
+}
